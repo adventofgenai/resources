@@ -1,10 +1,13 @@
 # 🚀 Resources: Your Gateway to GenAI Mastery! 🌟
 
-Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI with Intel's advanced tech? Here's everything you need to ace the hackathon:
+Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI with us? Here's everything you need to ace the hackathon:
 
-1. **Intel Developer Cloud: Your AI Powerhouse**
+1. **GenAI GitHub Repository**
+   - 🧭 Explore [rahulunair/genAI](https://github.com/rahulunair/genAI) for key insights on GenAI applications - Stable diffusion, LLM inference, finetuning and code generation with Intel GPUs. If you find the notebooks useful, consider leaving a star or spark a discussion with an issue!
+
+2. **Intel Developer Cloud**
    
-   - 🌐 Step into the [Intel Developer Cloud](https://cloud.intel.com) (IDC), register for free, and access a realm where Intel Xeons CPUs and GPUs amplify your code's potential. Discover a set of curated notebooks for Stable Diffusion, LLM inference and Finetuning on Intel under the 'Gen AI Essentials' section.
+   - 🌐 Step into the [Intel Developer Cloud](https://cloud.intel.com) (IDC), register for free, and access Intel Xeons CPUs and GPUs. Discover a set of curated notebooks for Stable Diffusion, LLM inference and Finetuning on Intel under the 'Gen AI Essentials' section.
 
 <div align=center>
 <img width="600" alt="Screenshot 2023-12-02 at 12 40 16 PM" src="https://github.com/adventofgenai/resources/assets/786476/50f0cf09-1d2c-489c-a3d3-0fdb23214062"/>
@@ -16,9 +19,6 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
 - Disk Space: Upto 30 GB per user (Depending up on capacity). 
 - GPU: Intel GPU with 48 GB (Data Center Max 1100), tailored for AI applications. 
 - CPU: 4th Gen Intel Xeon. 
-
-2. **GenAI GitHub Repository: Your AI Compass**
-   - 🧭 Explore [rahulunair/genAI](https://github.com/rahulunair/genAI) for key insights on GenAI applications - Stable diffusion, LLM inference, finetuning and code generation with Intel GPUs. If you find the notebooks useful, consider leaving a star or spark a discussion with an issue!
 
 3. **Magic of Prompt Engineering**:
    - Explore generative art techniques with [Stable Diffusion Prompt Book](https://openart.ai/promptbook), a resource for diverse prompt ideas and creative exploration in AI art.
@@ -32,7 +32,7 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
      ```
    - 📚 Dive deeper at [Intel XPU Tutorials](https://intel.github.io/intel-extension-for-pytorch/xpu/latest/tutorials/examples.html)
 
-5. **BigDL & LLMs: Unleash AI Magic**
+5. **BigDL & LLMs**
    - 🧙‍♂️ Experience LLM inference in 4-bit with [BigDL LLM Inference](https://github.com/intel-analytics/BigDL/blob/main/python/llm/example/GPU/HF-Transformers-AutoModels/Model/llama2/generate.py#L58)
 
 6. **Detect Your AI Resources: The Discovery Commands**
@@ -45,17 +45,7 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
      xpu-smi dump -m 18
      ```
 
-7. **Craft Your Custom Conda Environment**
-   - 🧪 Mix your perfect environment:
-     ```bash
-     conda clone pytorch-gpu <new_name>
-     conda activate new_name
-     conda install ipykernel
-     ipykernel install <>
-     conda install ...
-     ```
-
-8. **Python Package Installation: Effortlessly**
+7. **Python Package Installation: Effortlessly**
    - 📦 Streamline your installations:
      ```python
      import sys
@@ -79,18 +69,28 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
       
       set_local_bin_path()
      ```
+   
+8. **Craft Your Custom Conda Environment**
+   - 🧪 Mix your perfect environment:
+     ```bash
+     conda clone pytorch-gpu <new_name>
+     conda activate new_name
+     conda install ipykernel
+     ipykernel install <>
+     conda install ...
+     ```
 
-9. **Prediction Guard: Safeguard Your LLM Predictions**
+9. **Prediction Guard: Safeguard and Structure Your LLM Predictions**
    - 🛡️ Explore [Prediction Guard Documentation](https://docs.predictionguard.com)
 
-10. **Mastery in Retrieval Augmented Generation**
-   - 🎓 Learn from [LangChain](https://python.langchain.com/docs/use_cases/question_answering/) and [Llama-index](https://docs.llamaindex.ai/en/stable/getting_started/concepts.html)
-
-11. **Building LLM Applications: The Ultimate Guide**
-    - 📘 Deep dive into [Llama-index Docs](https://docs.llamaindex.ai/en/stable/understanding/understanding.html)
-
-12. **Vector Databases: Exploring with LanceDB**
+10. **Vector Databases: Exploring with LanceDB**
     - 🗂️ Engage with [LanceDB VectorDB Recipes](https://github.com/lancedb/vectordb-recipes/blob/main/examples/multimodal_search/main.ipynb)
+
+11.**Mastery in Retrieval Augmented Generation**
+   - 🎓 Learn from [LangChain](https://python.langchain.com/docs/use_cases/question_answering/) and [Llama-index](https://docs.llamaindex.ai/en/stable/getting_started/concepts.html)
+ 
+12. **Building LLM Applications: The Ultimate Guide**
+    - 📘 Deep dive into [Llama-index Docs](https://docs.llamaindex.ai/en/stable/understanding/understanding.html)
 
 # Contributing to GenAI 🤝
 
