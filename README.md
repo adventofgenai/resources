@@ -20,10 +20,13 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
 - GPU: Intel GPU with 48 GB (Data Center Max 1100), tailored for AI applications. 
 - CPU: 4th Gen Intel Xeon. 
 
-3. **Magic of Prompt Engineering**:
-   - Explore generative art techniques with [Stable Diffusion Prompt Book](https://openart.ai/promptbook), a resource for diverse prompt ideas and creative exploration in AI art.
+3. **Prediction Guard: Safeguard and Structure Your LLM Predictions**
+   - 🛡️ Explore [Prediction Guard Documentation](https://docs.predictionguard.com)
 
-4. **Intel Extension for PyTorch (XPUs):**
+4. **Magic of Prompt Engineering**:
+   - Explore generative art techniques with [Stable Diffusion Prompt Book](https://openart.ai/promptbook), a resource we found online for diverse prompt ideas and creative exploration in AI art.
+
+5. **Intel Extension for PyTorch (XPUs):**
    - 🔥 Check if XPU is ready:
      ```python
      import torch
@@ -32,10 +35,10 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
      ```
    - 📚 Dive deeper at [Intel XPU Tutorials](https://intel.github.io/intel-extension-for-pytorch/xpu/latest/tutorials/examples.html)
 
-5. **BigDL & LLMs**
+6. **BigDL & LLMs**
    - 🧙‍♂️ Experience LLM inference in 4-bit with [BigDL LLM Inference](https://github.com/intel-analytics/BigDL/blob/main/python/llm/example/GPU/HF-Transformers-AutoModels/Model/llama2/generate.py#L58)
 
-6. **Detect Your AI Resources: The Discovery Commands**
+7. **Detect Your AI Resources: The Discovery Commands**
    - 🔍 Uncover Intel GPUs and CPUs:
      ```bash
      echo "Intel GPUs:"
@@ -45,7 +48,7 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
      xpu-smi dump -m 18
      ```
 
-7. **Python Package Installation: Effortlessly**
+8. **Python Package Installation: Effortlessly**
    - 📦 Streamline your installations:
      ```python
      import sys
@@ -70,7 +73,7 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
       set_local_bin_path()
      ```
    
-8. **Craft Your Custom Conda Environment**
+9. **Craft Your Custom Conda Environment**
    - 🧪 Mix your perfect environment:
      ```bash
      conda clone pytorch-gpu <new_name>
@@ -79,10 +82,7 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
      ipykernel install <>
      conda install ...
      ```
-
-9. **Prediction Guard: Safeguard and Structure Your LLM Predictions**
-   - 🛡️ Explore [Prediction Guard Documentation](https://docs.predictionguard.com)
-
+     
 10. **Vector Databases: Exploring with LanceDB**
     - 🗂️ Engage with [LanceDB VectorDB Recipes](https://github.com/lancedb/vectordb-recipes/blob/main/examples/multimodal_search/main.ipynb)
 
