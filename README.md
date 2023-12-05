@@ -63,8 +63,21 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
      from pathlib import Path
      !echo "Installing..."
      !{sys.executable} -m pip cache purge > /dev/null
-     !{sys.executable} -m pip install --pre <python_package_name>
+     !{sys.executable} -m pip install <python_package_name>
      !echo "Installation Complete."
+      def get_python_version():
+          return "python" + ".".join(map(str, sys.version_info[:2]))
+      
+      def set_local_bin_path():
+          local_bin = str(Path.home() / ".local" / "bin") 
+          local_site_packages = str(
+              Path.home() / ".local" / "lib" / get_python_version() / "site-packages"
+          )
+          sys.path.append(local_bin)
+          sys.path.insert(0, site.getusersitepackages())
+          sys.path.insert(0, sys.path.pop(sys.path.index(local_site_packages)))
+      
+      set_local_bin_path()
      ```
 
 9. **Prediction Guard: Safeguard Your LLM Predictions**
