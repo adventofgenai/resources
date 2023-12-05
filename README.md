@@ -3,9 +3,19 @@
 Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI with Intel's advanced tech? Here's everything you need to ace the hackathon:
 
 1. **Intel Developer Cloud: Your AI Powerhouse**
-   - 🌐 Step into the [Intel Developer Cloud](https://cloud.intel.com) (IDC), register for free, and access a realm where Intel Xeons CPUs and GPUs amplify your code's potential. Discover GenAI notebooks in 'GenAI Essentials' on your home page @IDC  – A set of curated notebooks for Stable Diffusion, LLM inference and Finetuning on Intel!
+   
+   - 🌐 Step into the [Intel Developer Cloud](https://cloud.intel.com) (IDC), register for free, and access a realm where Intel Xeons CPUs and GPUs amplify your code's potential. Discover a set of curated notebooks for Stable Diffusion, LLM inference and Finetuning on Intel under the 'Gen AI Essentials' section.
 
-   ![Intel Developer Cloud](https://github.com/adventofgenai/resources/assets/786476/ddcfd550-1be4-4227-abbc-8cc6b630e102)
+<div align=center>
+<img width="600" alt="Screenshot 2023-12-02 at 12 40 16 PM" src="https://github.com/adventofgenai/resources/assets/786476/50f0cf09-1d2c-489c-a3d3-0fdb23214062"/>
+</div>
+
+**Each notebook will give you access to:** 
+
+- Jupyter Notebook: Each participant will work within a Jupyter Notebook environment, optimized for Generative AI challenges. 
+- Disk Space: Upto 30 GB per user (Depending up on capacity). 
+- GPU: Intel GPU with 48 GB (Data Center Max 1100), tailored for AI applications. 
+- CPU: 4th Gen Intel Xeon. 
 
 2. **GenAI GitHub Repository: Your AI Compass**
    - 🧭 Explore [rahulunair/genAI](https://github.com/rahulunair/genAI) for key insights on GenAI applications - Stable diffusion, LLM inference, finetuning and code generation with Intel GPUs. If you find the notebooks useful, consider leaving a star or spark a discussion with an issue!
