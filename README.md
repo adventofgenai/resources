@@ -3,12 +3,12 @@
 Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI with Intel's advanced tech? Here's everything you need to ace the hackathon:
 
 1. **Intel Developer Cloud: Your AI Powerhouse**
-   - 🌐 Step into the [Intel Developer Cloud](https://cloud.intel.com), register for free, and access a realm where Intel Xeons CPUs and GPUs amplify your code's potential. Discover GenAI notebooks in 'GenAI Essentials' – A set of curated notebooks for Stable Diffusion, LLM inference and Finetuning on Intel!
+   - 🌐 Step into the [Intel Developer Cloud](https://cloud.intel.com) (IDC), register for free, and access a realm where Intel Xeons CPUs and GPUs amplify your code's potential. Discover GenAI notebooks in 'GenAI Essentials' on your home page @IDC  – A set of curated notebooks for Stable Diffusion, LLM inference and Finetuning on Intel!
 
    ![Intel Developer Cloud](https://github.com/adventofgenai/resources/assets/786476/ddcfd550-1be4-4227-abbc-8cc6b630e102)
 
 2. **GenAI GitHub Repository: Your AI Compass**
-   - 🧭 Explore [rahulunair/genAI](https://github.com/rahulunair/genAI) for key insights on GenAI applications with Intel GPUs. If you find the notebooks useful, consider leaving a star or spark a discussion with an issue!
+   - 🧭 Explore [rahulunair/genAI](https://github.com/rahulunair/genAI) for key insights on GenAI applications - Stable diffusion, LLM inference, finetuning and code generation with Intel GPUs. If you find the notebooks useful, consider leaving a star or spark a discussion with an issue!
 
 3. **Magic of Prompt Engineering**:
    - Explore generative art techniques with [Stable Diffusion Prompt Book](https://openart.ai/promptbook), a resource for diverse prompt ideas and creative exploration in AI art.
@@ -23,7 +23,7 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
    - 📚 Dive deeper at [Intel XPU Tutorials](https://intel.github.io/intel-extension-for-pytorch/xpu/latest/tutorials/examples.html)
 
 5. **BigDL & LLMs: Unleash AI Magic**
-   - 🧙‍♂️ Experience LLM in 4-bit with [BigDL LLM Inference](https://github.com/intel-analytics/BigDL/blob/main/python/llm/example/GPU/HF-Transformers-AutoModels/Model/llama2/generate.py#L58)
+   - 🧙‍♂️ Experience LLM inference in 4-bit with [BigDL LLM Inference](https://github.com/intel-analytics/BigDL/blob/main/python/llm/example/GPU/HF-Transformers-AutoModels/Model/llama2/generate.py#L58)
 
 6. **Detect Your AI Resources: The Discovery Commands**
    - 🔍 Uncover Intel GPUs and CPUs:
