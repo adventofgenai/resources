@@ -8,20 +8,40 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
 2. **Intel Developer Cloud**
    
    - 🌐 Step into the [Intel Developer Cloud](https://cloud.intel.com) (IDC), register for free, and access Intel Xeons CPUs and GPUs. Discover a set of curated notebooks for Stable Diffusion, LLM inference and Finetuning on Intel under the 'Gen AI Essentials' section.
+   - **Each notebook will give you access to:** 
+      - Jupyter Notebook: Each participant will work within a Jupyter Notebook environment, optimized for Generative AI challenges. 
+      - Disk Space: Upto 30 GB per user (Depending up on capacity). 
+      - GPU: Intel GPU with 48 GB (Data Center Max 1100), tailored for AI applications. 
+      - CPU: 4th Gen Intel Xeon. 
 
 <div align=center>
 <img width="600" alt="Screenshot 2023-12-02 at 12 40 16 PM" src="https://github.com/adventofgenai/resources/assets/786476/50f0cf09-1d2c-489c-a3d3-0fdb23214062"/>
 </div>
 
-**Each notebook will give you access to:** 
+3. **Prediction Guard: Access a variety of privacy-conserving LLMs, validate outputs**
+   - 🛡️ Explore [Prediction Guard Documentation](https://docs.predictionguard.com). Check out the "Getting Started" and "Using LLMs" pages to run your first text or chat completions with the Prediction Guard API or Python client.
+   
+      ```python
+      import os
+      import json
+      import predictionguard as pg
+   
+      os.environ['PREDICTIONGUARD_TOKEN'] = "<your PG access token>"
+   
+      response = pg.Completion.create(
+         model="Neural-Chat-7B",
+         prompt="The advent of Gen AI hackathon is: "
+      )
+   
+      print(json.dumps(
+         response,
+         sort_keys=True,
+         indent=4,
+         separators=(',', ': ')
+      ))
+      ```
 
-- Jupyter Notebook: Each participant will work within a Jupyter Notebook environment, optimized for Generative AI challenges. 
-- Disk Space: Upto 30 GB per user (Depending up on capacity). 
-- GPU: Intel GPU with 48 GB (Data Center Max 1100), tailored for AI applications. 
-- CPU: 4th Gen Intel Xeon. 
-
-3. **Prediction Guard: Safeguard and Structure Your LLM Predictions**
-   - 🛡️ Explore [Prediction Guard Documentation](https://docs.predictionguard.com)
+   - 💪 Run through some of the examples in the [Using LLMs](https://docs.predictionguard.com/usingllms) section of the docs to learn more about basical prompting, prompt engineering, retrieval, chat, agents, etc.
 
 4. **Magic of Prompt Engineering**:
    - Explore generative art techniques with [Stable Diffusion Prompt Book](https://openart.ai/promptbook), a resource we found online for diverse prompt ideas and creative exploration in AI art.
