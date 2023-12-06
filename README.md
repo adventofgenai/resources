@@ -13,7 +13,7 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
 <img width="600" alt="Screenshot 2023-12-02 at 12 40 16 PM" src="https://github.com/adventofgenai/resources/assets/786476/50f0cf09-1d2c-489c-a3d3-0fdb23214062"/>
 </div>
 
-   **Each notebook will give you access to:** 
+   - **Each notebook will give you access to:** 
       - Jupyter Notebook: Each participant will work within a Jupyter Notebook environment, optimized for Generative AI challenges. 
       - Disk Space: Upto 30 GB per user (Depending up on capacity). 
       - GPU: Intel GPU with 48 GB (Data Center Max 1100), tailored for AI applications. 
