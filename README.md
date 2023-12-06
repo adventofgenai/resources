@@ -18,9 +18,10 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
 <img width="600" alt="Screenshot 2023-12-02 at 12 40 16 PM" src="https://github.com/adventofgenai/resources/assets/786476/50f0cf09-1d2c-489c-a3d3-0fdb23214062"/>
 </div>
 
+<a name="prediction-guard"></a>
 3. **Prediction Guard: Access a variety of privacy-conserving LLMs, validate outputs**
    - 🛡️ Explore [Prediction Guard Documentation](https://docs.predictionguard.com). Check out the "Getting Started" and "Using LLMs" pages to run your first text or chat completions with the Prediction Guard API or Python client.
-   
+
       ```python
       import os
       import json
