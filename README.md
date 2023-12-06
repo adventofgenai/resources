@@ -20,26 +20,26 @@ Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI wit
 
 3. **Prediction Guard: Access a variety of privacy-conserving LLMs, validate outputs**
    - 🛡️ Explore [Prediction Guard Documentation](https://docs.predictionguard.com). Check out the "Getting Started" and "Using LLMs" pages to run your first text or chat completions with the Prediction Guard API or Python client.
-
-   ```python
-   import os
-   import json
-   import predictionguard as pg
-
-   os.environ['PREDICTIONGUARD_TOKEN'] = "<your PG access token>"
-
-   response = pg.Completion.create(
-      model="Neural-Chat-7B",
-      prompt="The advent of Gen AI hackathon is: "
-   )
-
-   print(json.dumps(
-      response,
-      sort_keys=True,
-      indent=4,
-      separators=(',', ': ')
-   ))
-   ```
+   
+      ```python
+      import os
+      import json
+      import predictionguard as pg
+   
+      os.environ['PREDICTIONGUARD_TOKEN'] = "<your PG access token>"
+   
+      response = pg.Completion.create(
+         model="Neural-Chat-7B",
+         prompt="The advent of Gen AI hackathon is: "
+      )
+   
+      print(json.dumps(
+         response,
+         sort_keys=True,
+         indent=4,
+         separators=(',', ': ')
+      ))
+      ```
 
    - 💪 Run through some of the examples in the [Using LLMs](https://docs.predictionguard.com/usingllms) section of the docs to learn more about basical prompting, prompt engineering, retrieval, chat, agents, etc.
 
