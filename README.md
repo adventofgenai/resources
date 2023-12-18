@@ -4,7 +4,7 @@ Thank you to everyone who participated in the [Advent of Gen AI](https://advento
 
 Although the live hackathon has concluded, the adventure doesn't have to end. We're excited to announce that all the resources and challenges from the Advent of Gen AI are now available for you to explore offline. Whether you're looking to dive into the challenges at your own pace, expand your skills, or just satisfy your curiosity, our resources page is your gateway to continue learning and experimenting.
 
-Dive into the world of generative AI and keep the spirit of innovation alive. Check out the [challenges](https://github.com/adventofgenai/challenges) and resources [https://github.com/adventofgenai/resources] and start your own Gen AI journey today!
+Dive into the world of generative AI and keep the spirit of innovation alive. Check out the [challenges](https://github.com/adventofgenai/challenges) and [resources]( https://github.com/adventofgenai/resources) and start your own Gen AI journey today!
 
 Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI with us? Here's everything you need to ace the [Advent of GenAI](https://adventofgenai.com) hackathon:
 
