@@ -1,6 +1,6 @@
 # 🚀 Resources: Your Gateway to GenAI Mastery! 🌟
 
-Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI with us? Here's everything you need to ace the hackathon:
+Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI with us? Here's everything you need to ace the [Advent of GenAI](https://adventofgenai.com) hackathon:
 
 1. **GenAI GitHub Repository**
    - 🧭 Explore [rahulunair/genAI](https://github.com/rahulunair/genAI) for key insights on GenAI applications - Stable diffusion, LLM inference, finetuning and code generation with Intel GPUs. If you find the notebooks useful, consider leaving a star or spark a discussion with an issue!
