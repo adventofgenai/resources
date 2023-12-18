@@ -1,6 +1,13 @@
 # 🚀 Resources: Your Gateway to GenAI Mastery! 🌟
 
+Thank you to everyone who participated in the [Advent of Gen AI](https://adventofgenai.com) Hackathon! It was an exciting 7-day event packed with innovative challenges, including creating a Stable Diffusion Comic Book Generator, working with LLMs and RAG, exploring Python code explainers, and more, all culminating in a 2-day development sprint.
+
+Although the live hackathon has concluded, the adventure doesn't have to end. We're excited to announce that all the resources and challenges from the Advent of Gen AI are now available for you to explore offline. Whether you're looking to dive into the challenges at your own pace, expand your skills, or just satisfy your curiosity, our resources page is your gateway to continue learning and experimenting.
+
+Dive into the world of generative AI and keep the spirit of innovation alive. Check out the [challenges](https://github.com/adventofgenai/challenges) and resources [https://github.com/adventofgenai/resources] and start your own Gen AI journey today!
+
 Hello, AI Adventurers! Ready to navigate the exciting world of Generative AI with us? Here's everything you need to ace the [Advent of GenAI](https://adventofgenai.com) hackathon:
+
 
 1. **GenAI GitHub Repository**
    - 🧭 Explore [rahulunair/genAI](https://github.com/rahulunair/genAI) for key insights on GenAI applications - Stable diffusion, LLM inference, finetuning and code generation with Intel GPUs. If you find the notebooks useful, consider leaving a star or spark a discussion with an issue!
